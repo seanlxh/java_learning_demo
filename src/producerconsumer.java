@@ -30,7 +30,7 @@ public class producerconsumer {
                     }
                     Random random = new Random();
                     int i = random.nextInt();
-                    System.out.println("Producing value : " + i);
+                    System.out.println("Producing  value : " + i);
                     queue.add(i);
                     queue.notifyAll();
                 }
